@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<style type = "text/css">
+	body 	  { font-family: fantasy, cursive,sans-serif; }
+	a.nodec	  { text-decoration: none; }
+	a: hover  { text-decoration: underline; }
+	li{ font-weight: bold;}
+	li em{ text-decoration: line-through;}
+	h1, em{ text-decoration: underline: }
+	ul{ margin-left: 20px; }
+	span{
+		color: purple;
+		font-style: italic;
+		font-weight: bold;
+		fon
+	}
+	.extra span{
+		color: inherit;
+		ont-style: inherit;
+		font-weight: inherit;
+	}
+
+</style>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<table style="border:3px #cccccc solid;" cellpadding="10" border=‘1’>
+	<form>
+		<tr>
+		<th colspan="3"><div style = "color:black;"><span>About--110306077</span></div></th>
+		</tr>
+		<tr>
+			<td rowspan="3" >
+			<img src ="asshole.jpg" width = "50"
+					height = "65"><br>
+				<h1>personal photo</h1>
+			</td>
+			<td colspan="2">
+				<label><li><em>Name:</em></li>
+				<input name = "name" type = "text" size = "25" maxlength="30">
+				</label><br>
+				<div class = "extra" color = "blue"><span>Gender:</span></div>
+				<input type ="radio" name= "Gender" value="male" checked>male
+				<input type ="radio" name= "Gender" value="female" checked>female
+				<input type ="radio" name= "Gender" value="Other" checked>other
+			</td>	
+		</tr>
+		<tr>
+			<td>
+				<label><em>County:</em>
+				<select name="rate">
+				<option value="Taipei" selected >Taipei</option>
+				<option value="Tainan">Tainan</option>
+	 			<option value="Taichung">Taichung</option>
+	 			<option value="Taoyuan">Taoyuan</option>
+	 			</label>
+			</td>
+			<td>
+				<label>Birhday:
+			<input name = "Birhday" type = "date">
+			</label>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<label>E-mail:
+				<input name = "E-mail" type = "mail" size = "25" maxlength="30">
+				</label>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Hobby
+			</td>
+			<td colspan="2">
+				<input type ="checkbox" name= "Hobby" value="Swimming">Swimming
+				<input type ="checkbox" name= "Hobby" value="Volleyball">Volleyball
+				<input type ="checkbox" name= "Hobby" value="Movie">Movie
+				<input type ="checkbox" name= "Hobby" value="Game">Game
+				<input type ="checkbox" name= "Hobby" value="sleep">sleep
+				
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Skill
+			</td>
+			<td colspan="2">
+				<input type ="checkbox" name= "Skill" value="Java">Java
+				<input type ="checkbox" name= "Skill" value="HTML">HTML
+				<input type ="checkbox" name= "Skill" value="Python">Python
+				<input type ="checkbox" name= "Skill" value="Microsoft Office">Microsoft Office
+				<input type ="checkbox" name= "Skill" value="Premiere">Premiere
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Say something
+			</td>
+			<td colspan="2">
+				<textarea rows= "1" Cols="40" placeholder="Say something here."></textarea>
+			</td>
+		<tr>
+			<td colspan="3">
+				<input type="submit" value = "提交">
+				<input type="reset" value = "重設">
+			</td>
+		</tr>
+	</form>
+	</table>
+
+</body>
+</html>
